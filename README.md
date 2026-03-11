@@ -1,11 +1,28 @@
-<div align="center">
+# Comparador de Metodologias Analíticas
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Esta aplicação foi desenvolvida em Python com Streamlit para facilitar a comparação de resultados entre dois métodos laboratoriais/analíticos.
 
-  <h1>Built with AI Studio</h2>
+## Como executar localmente
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. **Certifique-se de ter o Python instalado** (v3.8 ou superior).
+2. **Crie um ambiente virtual (opcional, mas recomendado):**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # No Windows: venv\Scripts\activate
+   ```
+3. **Instale as dependências:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Execute a aplicação:**
+   ```bash
+   streamlit run app.py
+   ```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Funcionalidades
+- Importação de CSV/Excel.
+- Estatística descritiva e pareada.
+- Testes de normalidade e significância.
+- Gráficos de Dispersão, Regressão e Bland-Altman.
+- Análise segmentada por faixas de concentração.
+- Exportação de relatórios.
